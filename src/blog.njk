@@ -1,0 +1,12 @@
+---
+title: Blog
+layout: "base.njk"
+---
+
+<!-- Nội dung của một bài viết bất kỳ -->
+<div class="section container">
+    <h1 class="section-title">Recent articles</h1>
+    <ul role="list" class="articles__list flow"></ul>
+    {%- for post in collections.post -%} {% include 'article-snippet.njk' %} {%-
+    endfor -%}
+</div>
