@@ -19,7 +19,7 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: ["post"]}
+      - {label: "Tags", name: "tags", widget: "list", default: ["post"]}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       # - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
